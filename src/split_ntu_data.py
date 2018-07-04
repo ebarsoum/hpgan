@@ -79,10 +79,9 @@ class DataSplitter(object):
         camera_id = settings[1]        
         replication_id = settings[3]
         activity_id = settings[4]
-        if (activity_id > 49) or (replication_id != 1) or (camera_id != 2):
+        if (activity_id > 49) or (replication_id != 1):
             return False # ignore all activities with 2 persons
                          # and use one replication
-                         # and use the front camera
 
         frames = BodyFileReader(item_path)
         if len(frames) >= 60:

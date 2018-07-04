@@ -5,7 +5,6 @@ import math
 import csv
 import argparse
 import numpy as np
-import matplotlib.pyplot as plt
 import logging
 import random as rnd
 import h5py
