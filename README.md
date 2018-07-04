@@ -61,11 +61,11 @@ First raw is the ground truth, input is the first 10 poses and the network predi
 ## Citation
 If you use the provided code or part of it in your research, please cite the following:
 
-**
+```
 @article{BarsoumCVPRW2018,
-&nbsp;&nbsp;&nbsp;&nbsp;author = {Emad Barsoum and John Kender and Zicheng Liu},
-&nbsp;&nbsp;&nbsp;&nbsp;title = {{HP-GAN:} Probabilistic 3D human motion prediction via {GAN}},
-&nbsp;&nbsp;&nbsp;&nbsp;journal = {CoRR},
-&nbsp;&nbsp;&nbsp;&nbsp;year = {2017},
+  author = {Emad Barsoum and John Kender and Zicheng Liu},
+  title = {{HP-GAN:} Probabilistic 3D human motion prediction via {GAN}},
+  journal = {CoRR},
+  year = {2017},
 }
-**
+```
